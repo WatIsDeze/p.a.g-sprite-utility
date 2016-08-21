@@ -1,0 +1,58 @@
+[gd_scene format=1]
+
+[node name="dialog_map_palettes" type="ConfirmationDialog"]
+
+editor/display_folded = true
+visibility/visible = false
+visibility/opacity = 0.75
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 130.0
+margin/top = 136.0
+margin/right = 510.0
+margin/bottom = 256.0
+popup/exclusive = true
+window/title = "Select a source and replacement palette"
+dialog/hide_on_ok = true
+
+[node name="destination_palette_name" type="OptionButton" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 9.0
+margin/top = 49.0
+margin/right = 369.0
+margin/bottom = 72.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Destination"
+flat = false
+align = 0
+selected = 0
+items = [ "Destination", null, false, -1, null ]
+
+[node name="source_palette_name" type="OptionButton" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 9.0
+margin/top = 9.0
+margin/right = 369.0
+margin/bottom = 32.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Source"
+flat = false
+align = 0
+selected = 0
+items = [ "Source", null, false, -1, null ]
+
+

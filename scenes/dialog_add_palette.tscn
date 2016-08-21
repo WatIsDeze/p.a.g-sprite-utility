@@ -1,0 +1,35 @@
+[gd_scene format=1]
+
+[node name="dialog_add_palette" type="ConfirmationDialog"]
+
+editor/display_folded = true
+visibility/visible = false
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 209.0
+margin/top = 185.0
+margin/right = 459.0
+margin/bottom = 260.0
+popup/exclusive = true
+window/title = "Enter palette name"
+dialog/hide_on_ok = true
+
+[node name="input_palette_name" type="LineEdit" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 10.0
+margin/top = 10.0
+margin/right = 240.0
+margin/bottom = 33.0
+text = "palette_name"
+placeholder/alpha = 0.6
+focus_mode = 2
+caret/caret_blink = false
+caret/caret_blink_speed = 0.65
+
+

@@ -1,0 +1,181 @@
+[gd_scene format=1]
+
+[node name="dialog_edit_palettes" type="WindowDialog"]
+
+editor/display_folded = true
+visibility/visible = false
+visibility/opacity = 0.75
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 159.0
+margin/top = 85.0
+margin/right = 479.0
+margin/bottom = 315.0
+popup/exclusive = true
+window/title = "Palettes"
+
+[node name="list_colors" type="ItemList" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 10.0
+margin/top = 40.0
+margin/right = 310.0
+margin/bottom = 160.0
+custom_constants/vseparation = 1
+custom_constants/line_separation = 1
+custom_constants/icon_margin = 1
+custom_constants/hseparation = 1
+
+[node name="palette_name" type="OptionButton" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 10.0
+margin/top = 10.0
+margin/right = 240.0
+margin/bottom = 33.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+align = 0
+selected = -1
+items = [  ]
+
+[node name="button_colorpicker" type="ColorPickerButton" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 51.0
+margin/top = 170.0
+margin/right = 251.0
+margin/bottom = 189.0
+toggle_mode = false
+click_on_press = true
+enabled_focus_mode = 2
+shortcut = null
+flat = false
+color = Color( 1, 1, 1, 1 )
+edit_alpha = true
+
+[node name="label_color" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = 10.0
+margin/top = 172.0
+margin/right = 50.0
+margin/bottom = 185.0
+text = "Color"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+
+[node name="button_add_color" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 260.0
+margin/top = 170.0
+margin/right = 279.0
+margin/bottom = 189.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "+"
+flat = false
+
+[node name="button_remove_color" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 290.0
+margin/top = 170.0
+margin/right = 309.0
+margin/bottom = 189.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "-"
+flat = false
+
+[node name="button_save_palette" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 10.0
+margin/top = 200.0
+margin/right = 51.0
+margin/bottom = 219.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Save"
+flat = false
+
+[node name="button_cancel_palette" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 60.0
+margin/top = 200.0
+margin/right = 101.0
+margin/bottom = 219.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "Cancel"
+flat = false
+
+[node name="button_new_palette" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 260.0
+margin/top = 12.0
+margin/right = 279.0
+margin/bottom = 31.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "+"
+flat = false
+
+[node name="button_delete_palette" type="Button" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 290.0
+margin/top = 12.0
+margin/right = 309.0
+margin/bottom = 31.0
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "-"
+flat = false
+
+
